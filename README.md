@@ -4,6 +4,7 @@ A Python application that allows you to practice the association of service name
 To start practicing:
 
 1. Download the script to your local machine:
+
 git clone https://github.com/Darkscr1pt/NetPortTrivia.git
 
 2. Make the script executable:
