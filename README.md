@@ -8,9 +8,11 @@ To start practicing:
 git clone https://github.com/Darkscr1pt/NetPortTrivia.git
 
 2. Make the script executable:
+
 chmod +x NetPortTrivia.py
 
 3. Run the script: 
+
 python3 NetPortTrivia.py
 
 4. The script will randomly display the names of network protocols/services and will prompt you to enter their corresponding port numbers. A correct answer adds one point to your score and incorrect answers substract one point from your score.
