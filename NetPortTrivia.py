@@ -1,5 +1,7 @@
 import random
 
+# Dictionary containing protocol/service names and their corresponding port number.
+# Feel free to add or remove entries as you please.
 ports = {
     "Echo": "7",
     "FTP": "21",
@@ -74,25 +76,30 @@ ports = {
 
 
 def npt():
-    #
+    # Score counter.
     score = 0
     while score < 20:
+        # Picks a random service name from dictionary.
         service_name = random.choice(list(ports))
         print("Your score is: " + str(score) + "\n")
         print(service_name + "\n")
         port_number = input("Type the number of the port that matches the above service name: ")
         print("")
+        # If the random service name and the user input exist as a pair in the dictionary, add one point to the score.
         if (service_name, port_number) in ports.items():
             print("Correct!")
             score += 1
+        # Otherwise, present the correct answer and subtract one point from the score.
         else:
             answer = (ports[service_name])
             print("Wrong!")
             print("The correct answer is " + str(answer))
             score -= 1
+            # If the score goes below -2 points - game over and exit application.
             if score < -2:
                 print("Game over: You lost too many points.\n")
                 exit()
+    # If the score hits 20 points - mission accomplished and exit application.
     print("Congratulations! You've earned 20 points!")
     exit()
 
