@@ -9,6 +9,7 @@ To start practicing:
 1. Install Python on your machine:
 
 sudo apt-get update
+
 sudo apt-get install python3.9
 
 2. Download the script to your machine:
