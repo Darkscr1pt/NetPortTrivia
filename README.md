@@ -24,7 +24,7 @@ chmod +x NetPortTrivia.py
 
 python3 NetPortTrivia.py
 
-5. The script will randomly display the names of network protocols/services and will prompt you to enter their corresponding port numbers. A correct answer adds one point to your score and incorrect answers substract one point from your score.
+5. The script will randomly display the names of network protocols/services and will prompt you to enter their corresponding port numbers. A correct answer adds one point to your score and incorrect answers subtract one point from your score.
 
 6. To win, you need to reach 20 points. 
 
