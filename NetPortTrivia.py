@@ -28,7 +28,7 @@ ports = {
     "NetBIOS (Session Service)": "139",
     "IMAP": "143",
     "SNMP (Agent)": "161",
-    "SNMP (Manager)": "162",
+    "SNMP (Trap; Manager)": "162",
     "BGP": "179",
     "AppleTalk": "201",
     "LDAP": "389",
