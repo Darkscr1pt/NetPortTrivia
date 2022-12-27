@@ -21,6 +21,7 @@ ports = {
     "Microsoft Exchange (X.400)": "102",
     "POP3": "110",
     "Linux RPC": "111",
+    "NNTP (News Network Transfer Protocol)": "119",
     "NTP": "123",
     "Microsoft RPC": "135",
     "NetBIOS (Name Resolution)": "137",
