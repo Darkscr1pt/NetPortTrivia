@@ -10,7 +10,7 @@ ports = {
     "Telnet": "23",
     "SMTP (Message Relay)": "25",
     "Whois": "43",
-    "TACACS": "49",
+    "TACACS+": "49",
     "DNS": "53",
     "DHCP Server": "67",
     "DHCP Client": "68",
